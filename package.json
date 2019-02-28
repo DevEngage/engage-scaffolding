@@ -10,7 +10,8 @@
     "main.scss"
   ],
   "scripts": {
-    "scss": "node-sass main.scss main.css"
+    "scss": "node-sass main.scss main.css",
+    "just.publish": "npm publish --access public"
   },
   "dependencies": {
     "bootstrap": "4.2.1"
