@@ -1,0 +1,21 @@
+{
+  "name": "@dev-engage/engage-scaffolding",
+  "private": false,
+  "version": "0.8.0",
+  "description": "A scaffolding library based on bootstrap",
+  "license": "MIT",
+  "author": "DevEngage",
+  "files": [
+    "_variables",
+    "main.scss"
+  ],
+  "scripts": {
+    "scss": "node-sass main.scss main.css"
+  },
+  "dependencies": {
+    "bootstrap": "4.2.1"
+  },
+  "devDependencies": {
+    "prettier": "1.15.2"
+  }
+}
